@@ -1,0 +1,117 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Caches
+.cache
+*/.vitepress/cache 
+.parcel-cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Diagnostic reports
+report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build / compiled output
+build/Release
+dist
+.next
+.nuxt
+.vuepress/dist
+
+# Coverage
+coverage
+*.lcov
+.nyc_output
+
+# Test / tooling
+.vscode-test
+.eslintcache
+.stylelintcache
+.npm
+.node_repl_history
+
+# Dependency directories / lockfiles
+node_modules/
+jspm_packages/
+web_modules/
+pnpm-lock.yaml
+package-lock.json
+bun.lockb
+bun.lock
+.pnp.*
+
+# Package managers / other
+bower_components
+.lock-wscript
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional caches
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Env files
+.env
+.env.*.local
+
+# Editor / IDE
+.idea
+.vscode
+.vscode/workspace.json
+.vscode/workspace-mobile.json
+
+# OS files
+.DS_Store
+
+# Misc
+*.tgz
+.tern-port
+serverless/
+.serverless/
+.dynamodb/
+
+# Golang
+go.sum
+
+# Python
+**/*/__pycache__
+
+# VitePress / VuePress / Docusaurus / Snowpack / FuseBox / Microbundle
+.temp
+.vp-cache
+.vp-temp
+.vuepress/dist
+config.ts.*.mjs
+.docusaurus
+.fusebox/
+
+# Obsidian
+*.foldersync.old
+.trash
+rs-test-folder-*
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Custom
+demo/@AutomationLog.txt
+demo/*.log
+
+# Finder (MacOS) folder config
+.DS_Store
